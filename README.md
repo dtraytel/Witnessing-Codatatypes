@@ -1,5 +1,5 @@
 The formal development associated with the paper
 
-Witnessing Codatatypes
+Witnessing (Co)datatypes
 
 Jasmin Blanchette, Andrei Popescu, Dmitriy Traytel
