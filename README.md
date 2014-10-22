@@ -6,9 +6,9 @@ This repository contains supplementary material related to the paper
 The archive codata_wit_devel.tar.gz contains details and pointers concerning the
 Isabelle development reported in the paper:
 
-1. Pointers to the ML code handling witnesses,
-2. The derivation trees case study,
-3. Sample (co)datatype declarations with computed witnesses.
+1) Pointers to the ML code handling witnesses,
+2) The derivation trees case study,
+3) Sample (co)datatype declarations with computed witnesses.
 
 The development has been integrated in the Isabelle2014 distribution, 
 available at: 
@@ -18,7 +18,7 @@ available at:
 More details are given below.
 
 
-1. ML code
+1) ML code
 
 The (co)datatype package is located in the Isabelle distribution at:
    
@@ -37,7 +37,7 @@ The code handling witnesses (described in the paper's section 5) is located at
 The *_tactics.ML files certify the witnesses, which are produced (as Isabelle
 terms) in the other files.
 
-2. Derivation trees
+2) Derivation trees
 
 The theories are available in this archive in both pdf and html-browsable forms.
 
@@ -59,7 +59,7 @@ reader should be able to identify in the formal scripts the relevant
 constructions and facts.
 
 
-3. Sample (co)datatype declarations
+3) Sample (co)datatype declarations
 
 The theory Sample in this archive contains the (co)datatype declarations
 examplified in the paper.
