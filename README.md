@@ -22,23 +22,17 @@ More details are given below.
 
 The (co)datatype package is located in the Isabelle distribution at:
    
-   src/HOL/Tools/BNF
+    src/HOL/Tools/BNF
 
 The code handling witnesses (described in the paper's section 5) is located at
 
-   src/HOL/Tools/BNF/bnf_def.ML               (for basic BNFs)
-   
-   src/HOL/Tools/BNF/bnf_comp.ML              (for composition)
-   
-   src/HOL/Tools/BNF/bnf_comp_tactics.ML
-   
-   src/HOL/Tools/BNF/bnf_lfp.ML               (for initial algebras / datatypes)
-   
-   src/HOL/Tools/BNF/bnf_lfp_tactics.ML
-   
-   src/HOL/Tools/BNF/bnf_gfp.ML               (for final coalgebra / codatatypes)
-   
-   src/HOL/Tools/BNF/bnf_gfp_tactics.ML
+    src/HOL/Tools/BNF/bnf_def.ML               (for basic BNFs)
+    src/HOL/Tools/BNF/bnf_comp.ML              (for composition)
+    src/HOL/Tools/BNF/bnf_comp_tactics.ML
+    src/HOL/Tools/BNF/bnf_lfp.ML               (for initial algebras / datatypes)
+    src/HOL/Tools/BNF/bnf_lfp_tactics.ML
+    src/HOL/Tools/BNF/bnf_gfp.ML               (for final coalgebra / codatatypes)
+    src/HOL/Tools/BNF/bnf_gfp_tactics.ML
 
 The *_tactics.ML files certify the witnesses, which are produced (as Isabelle
 terms) in the other files.
@@ -50,7 +44,7 @@ The theories are available in this archive in both pdf and html-browsable forms.
 The Isabelle sources for the generated files are located in the Isabelle
 distribution at
 
-   src/HOL/BNF_Examples/Derivation_Trees
+    src/HOL/BNF_Examples/Derivation_Trees
 
 The theory DTree contains the definition of the derivation-tree codatatype.  For
 convenience, it also transports the package-produced facts from the type "'a
