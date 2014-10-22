@@ -27,11 +27,17 @@ The (co)datatype package is located in the Isabelle distribution at:
 The code handling witnesses (described in the paper's section 5) is located at
 
    src/HOL/Tools/BNF/bnf_def.ML               (for basic BNFs)
+   
    src/HOL/Tools/BNF/bnf_comp.ML              (for composition)
+   
    src/HOL/Tools/BNF/bnf_comp_tactics.ML
+   
    src/HOL/Tools/BNF/bnf_lfp.ML               (for initial algebras / datatypes)
+   
    src/HOL/Tools/BNF/bnf_lfp_tactics.ML
+   
    src/HOL/Tools/BNF/bnf_gfp.ML               (for final coalgebra / codatatypes)
+   
    src/HOL/Tools/BNF/bnf_gfp_tactics.ML
 
 The *_tactics.ML files certify the witnesses, which are produced (as Isabelle
